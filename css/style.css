@@ -1,0 +1,42 @@
+/* 
+    RESET
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 
+    GENERAL
+*/
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.flex-item {
+    flex-basis: 30%;
+}
+
+/* 
+    DEBUG
+*/
+.debug .flex-container {
+    background-color: goldenrod;
+    border: 3px dashed aqua;
+    min-height: 400px;
+}
+
+.debug .flex-item {
+    background-color: lightcoral;
+    border: 3px dashed aquamarine;
+}
